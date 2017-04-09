@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 
-import Header from './components/header.react';
-import Dashboard from './pages/dashboard.react';
+import Header from 'components/header.react';
+import Dashboard from 'pages/dashboard.react';
 
 class App extends Component {
   render() {
