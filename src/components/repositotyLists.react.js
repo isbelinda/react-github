@@ -5,9 +5,9 @@ class RepositoryLists extends React.Component {
     render() {
         return (
             <div className="section">
-                <RepositoryListItem/>
-                <RepositoryListItem/>
-                <RepositoryListItem/>
+                <RepositoryListItem repoName="facebook/react"/>
+                <RepositoryListItem repoName="vuejs/vue"/>
+                <RepositoryListItem repoName="angular/angular"/>
             </div>
         )
     }
